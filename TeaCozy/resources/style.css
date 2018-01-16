@@ -1,0 +1,150 @@
+/*Universal Styles*/
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content:space-between;
+  height: 69px;
+  width: 98%;
+  border-bottom: 1px solid seashell;
+  z-index: 3;
+  background-color: black;
+  padding: 0px 10px;
+  top: 0;
+}
+
+.logo img {
+  height: 50px;
+  margin-left: 10px;
+}
+
+nav span {
+  display: inine-block;
+  color: seashell;
+  padding-left: 30px;
+}
+
+header a {
+  color: seashell;
+}
+
+/*Mission Block*/
+
+.missionimage {
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  flex-wrap: wrap;
+  margin: auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.missionlarge {
+  display: inline-block;
+  position: relative;
+  background-color: black;
+  justify-content: center;
+  width: 1200px;
+  line-height: -30px;
+}
+
+/*Featured Teas*/
+
+.featuredtea {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1000px;
+  height: 750px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+.featuredtea .teaofmonth {
+  display: flex;
+  width: 1000px;
+  height: 100px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.teaofmonth {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  line-height: 1px;
+}
+
+.monthimg {
+  height: 200px;
+  width: 300px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: flex-start;
+  justify-content: space-around;
+  padding: 15px 15px;
+  margin-bottom: 30px;
+}
+
+/*Location*/
+
+.bckgrndlocation {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.location {
+  text-align: center;
+  flex-flow: column;
+  align-content: center;
+  justify-content: center;
+}
+
+.locationboxes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 300px;
+  padding: 10px;
+  margin: 15px 40px;
+}
+
+.downtown, .eastbayside, .oakdale {
+  display: flex;
+  flex-direction:column;
+  opacity: 1;
+  width: 300px;
+  height: 300px;
+  align-items: center;
+  background: black;
+}
+
+.teacozy {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 200px;
+  line-height: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: flex-start;
+  font-size: 20px;
+}
